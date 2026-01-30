@@ -3,51 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shiva Bhanu Prasad</title>
+    <title>Shiva Banu Prasad - Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon.ico" sizes="256x256" type="image/x-icon">
 </head>
 <body>
-    <main class="main">
-        <div class="bg-grid"></div>
-        <nav class="navbar">
-            <!-- Nav links from original -->
-            <a href="#home" class="nav-link">Home</a>
-            <a href="#about" class="nav-link">About</a>
-            <a href="#projects" class="nav-link">Projects</a>
-            <a href="#experience" class="nav-link">Experience</a>
-            <a href="#contact" class="nav-link">Contact</a>
-            <div class="nav-divider"></div>
-            <a href="https://github.com/SamyaDeb" target="_blank" class="social-github">GitHub</a>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Shiva Banu Prasad</div>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
-        <section id="home" class="hero">
-            <div class="hero-content">
-                <div class="status-badge">Looking for opportunities</div>
-                <h1>Hi, I'm Samya <span class="wave">👋</span></h1>
-                <h2>Full Stack Web Developer</h2>
-                <p>I create and ship end-to-end web applications using modern development stacks. At present, I’m focused on developing Web3 solutions and collaborating on open-source initiatives.</p>
-                <div class="hero-buttons">
-                    <a href="resume.pdf" target="_blank" class="btn-primary">Open CV →</a>
-                    <a href="#contact" class="btn-secondary">Contact me →</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="image-ring"></div>
-                <img src="images/profile.jpeg" alt="Profile" class="profile-img">
-            </div>
-        </section>
-        <!-- About, Skills, Projects, Experience, Achievements, Contact sections from snippet - abbreviated for brevity -->
-        <section id="about" class="section">
-            <h3>About Me</h3>
-            <p>[Full about text from file]</p>
-            <!-- Skills grid -->
-        </section>
-        <!-- Similar for other sections -->
-        <footer>
-            <p>&copy; 2026 Samya Deb Biswas. All rights reserved.</p>
-        </footer>
-    </main>
-    <script src="script.js" defer></script>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <img src="assets/profile.png" alt="Profile Photo" class="profile-img">
+            <h1>Hi, I'm Shiva Banu Prasad</h1>
+            <p>B.Tech ECE Student | Founder of InvigilateX | AI & Robotics Enthusiast</p>
+            <a href="assets/cv.docx" download class="btn">Download CV</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <iframe src="assets/1cec36cd-5192-40b9-aae1-7889e8e60d27.pdf" frameborder="0" class="about-pdf"></iframe>
+        <a href="assets/1cec36cd-5192-40b9-aae1-7889e8e60d27.pdf" download class="btn">Download About Me</a>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>InvigilateX — AI-Based Smart Exam Invigilation</h3>
+            <p>AI-powered computer vision system for real-time exam monitoring.</p>
+        </div>
+        <div class="project-card">
+            <h3>Gesture-Controlled Racing Game</h3>
+            <p>Hands-free control using OpenCV & MediaPipe for real-time gameplay.</p>
+        </div>
+        <div class="project-card">
+            <h3>OCR + AI Study Assistant</h3>
+            <p>Automated quiz solver with Python, pytesseract, OpenAI API integration.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:boganaboinashivabanuprasad@gmail.com">boganaboinashivabanuprasad@gmail.com</a></p>
+        <p>Phone: 9491648147</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/shivabanuprasad" target="_blank">Shiva Banu Prasad</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Shiva Banu Prasad. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
